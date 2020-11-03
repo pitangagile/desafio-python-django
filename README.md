@@ -76,7 +76,7 @@ Obs: O id do usuário pode ser um sequencial gerado pelo banco ou um id único.
 
 ## Requisitos
 * Framework Django.
-* Banco de dados em memória, como Redis.
+* Banco de dados em memória, como SQLite.
 * Persistência com Django ORM ou SQLAlchemy.
 * Disponibilizar a API rodando em algum host (Heroku, AWS, Digital Ocean, etc).
 * Servidor deve estar embutido na aplicação (Gunicorn ou uWSGI)
